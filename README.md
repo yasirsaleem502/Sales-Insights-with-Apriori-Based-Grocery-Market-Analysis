@@ -4,16 +4,14 @@
 The Driving Sales Insights with Apriori-Based Grocery Market Analysis project aims to leverage the power of the Apriori algorithm to analyze grocery store transaction data and uncover actionable insights. These insights will help retailers understand customer purchasing behavior, identify frequently bought-together products, and generate association rules to enhance cross-selling strategies, improve product placement, and ultimately drive sales growth.
 
 ### Table of Contents
-Introduction
-Dataset
-Apriori Algorithm
-Project Structure
-Installation
-Usage
-Results
-Future Enhancements
-Contributing
-License
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Apriori Algorithm](#apriori-algorithm)
+- [Model Evaluation Metrics](#model-evaluation-metrics)
+- [Reasult](#reasult)
+- [Contact](#contact)
+  
 
 ## Introduction
 Market Basket Analysis is a powerful tool used in the retail industry to study the purchasing patterns of customers and discover associations between different products. This project applies the Apriori Algorithm to grocery market transaction data to identify frequent itemsets and generate association rules. These insights can be leveraged to improve store layout, drive cross-selling, and optimize inventory management, which can all lead to increased sales.
@@ -51,3 +49,36 @@ Key Concepts:
 **Confidence**: The likelihood that item B is purchased when item A is purchased.
 
 **Lift**: The ratio of the observed support to the expected support if A and B were independent.
+
+## Model Evaluation Metrics:
+
+**Support**: Frequency of an itemset appearing in transactions.
+
+**Confidence**: Likelihood of one product being bought when another product is bought.
+
+**Lift**: Measure of the strength of the rule in comparison to random chance.
+
+## Reasult
+
+## Frequent Itemsets
+![aprori algo 1](https://github.com/user-attachments/assets/264801fb-1b10-4380-a141-85b6d9924e51)
+
+## Comparison of Support, Confidence, and Lift
+![aprori algo 2](https://github.com/user-attachments/assets/4d4d301e-4bda-4ed7-954e-f702dbed9f3e)
+
+![aprori algo 4](https://github.com/user-attachments/assets/97367983-54f9-44a9-a13b-9b73c65fe7d6)
+
+
+
+## Plotting network graph
+![aprori algo 3](https://github.com/user-attachments/assets/9dbf6aff-7035-4f6e-895a-6de1c3f5282a)
+
+
+## Contact
+- Author: Muhammad Yasir Saleem
+- Email: myasirsaleem94@gmail.com
+- LinkedIn:https://www.linkedin.com/in/muhammad-yasir-saleem/
+
+
+Feel free to reach out if you have any questions or need further information.
+
